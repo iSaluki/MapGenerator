@@ -15,7 +15,7 @@ const ERROR = 1;
 // if map version is not stored, clear localStorage and show a message
 if (rn(localStorage.getItem("version"), 2) !== rn(version, 2)) {
   localStorage.clear();
-  setTimeout(showWelcomeMessage, 8000);
+ // setTimeout(showWelcomeMessage, 8000);
 }
 
 // append svg layers (in default order)
