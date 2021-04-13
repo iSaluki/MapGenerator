@@ -364,6 +364,8 @@ function showWelcomeMessage() {
     <p>Join our ${discord} and ${reddit} to ask questions, share maps, discuss the Generator and Worlbuilding, report bugs and propose new features.</p>
     <span>Thanks for all supporters on ${patreon}!</i></span>`;
 
+  // REMOVE BELOW CODE WHEN FUNCTIONAL
+  
   $("#alert").dialog(
     {resizable: false, title: "Fantasy Map Generator update", width: "28em",
     buttons: {OK: function() {$(this).dialog("close")}},
